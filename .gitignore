@@ -1,0 +1,12 @@
+# Private documents (transcripts, diploma, old CVs). Never publish these.
+# The public CV is copied into the repo as cv.pdf on purpose.
+Job Application Documents/
+
+# OS clutter
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Private working notes (stay local)
+portfolio-plan.md
+CLAUDE.md
