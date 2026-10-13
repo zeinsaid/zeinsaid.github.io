@@ -3,10 +3,92 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Zein Said</title>
+  <title>Zein Said · AI Engineer</title>
+  <meta name="description" content="Zein Said, AI Engineer. I build LLM systems that ship.">
+
+  <!-- Inter font from Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Hello, I'm Zein.</h1>
-  <p>My portfolio is on its way.</p>
+  <main class="container">
+
+    <!-- ===== Hero: who I am ===== -->
+    <header class="hero">
+      <!-- Photo placeholder: swap the "ZS" div for <img src="photo.jpg" alt="Zein Said"> later -->
+      <div class="avatar" aria-hidden="true">ZS</div>
+
+      <h1 class="name">Zein Said</h1>
+      <p class="role">AI Engineer</p>
+      <p class="tagline">I build LLM systems that ship. Open to relocation.</p>
+
+      <div class="actions">
+        <a class="btn btn-primary" href="cv.pdf" download="Zein_Said_CV.pdf">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M5 21h14"/></svg>
+          Download CV
+        </a>
+        <a class="btn btn-ghost" href="#projects">See my work</a>
+      </div>
+
+      <nav class="socials" aria-label="Links">
+        <a href="https://github.com/zeinsaid" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path class="fill" d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.56-.29-5.25-1.28-5.25-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.4-5.27 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/zeinsaid" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path class="fill" d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></svg>
+        </a>
+        <!-- Email: the address is assembled by the script at the bottom, so it never appears in the page source -->
+        <a href="#" class="js-email" aria-label="Email">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v12H3z M3 7l9 6 9-6"/></svg>
+        </a>
+      </nav>
+    </header>
+
+    <!-- ===== Projects ===== -->
+    <section id="projects" class="section">
+      <h2 class="section-title">Projects</h2>
+
+      <article class="card">
+        <a class="card-shot" href="https://shop-assistant-ss1r.onrender.com" target="_blank" rel="noopener">
+          <img src="images/shop-assistant.png" alt="The Shop Assistant demo: a customer chat and the panel explaining why the bot asked the owner" loading="lazy" width="2560" height="1640">
+        </a>
+        <div class="card-head">
+          <h3>Shop Assistant</h3>
+          <span class="badge badge-live">Live demo</span>
+        </div>
+        <p>An AI receptionist for a real print shop in Nicosia. It answers customers from the shop's knowledge base in English or Greek, asks the owner when it doesn't know, and never guesses. Picked by a 130-case evaluation across Anthropic, OpenAI and Google models: about $0.0003 per message.</p>
+        <ul class="tags">
+          <li>Python</li><li>FastAPI</li><li>Pydantic</li><li>LLM evaluation</li><li>Multi-provider</li>
+        </ul>
+        <div class="card-actions">
+          <a class="btn btn-primary btn-sm" href="https://shop-assistant-ss1r.onrender.com" target="_blank" rel="noopener">Try it →</a>
+          <a class="btn btn-ghost btn-sm" href="https://github.com/zeinsaid/Shop-Assistant" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path class="fill" d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.56-.29-5.25-1.28-5.25-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.4-5.27 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg>
+            Code
+          </a>
+        </div>
+        <p class="note">Free hosting: the first message can take about a minute while the demo wakes up.</p>
+      </article>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year">2026</span> Zein Said</p>
+  </footer>
+
+  <script>
+    // Footer year stays current
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Email obfuscation: bots reading the HTML never see a full address.
+    const user = 'Zein_Said', domain = 'outlook.com';
+    document.querySelectorAll('.js-email').forEach(function (a) {
+      a.href = 'mailto:' + user + '@' + domain;
+    });
+  </script>
 </body>
 </html>
