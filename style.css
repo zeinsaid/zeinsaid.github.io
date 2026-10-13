@@ -67,9 +67,7 @@ a { color: inherit; text-decoration: none; }
   letter-spacing: 0.02em;
   color: var(--text);
   background: var(--surface);
-  /* gradient ring around the circle */
-  border: 3px solid transparent;
-  background-clip: padding-box;
+  /* accent ring plus a soft glow */
   box-shadow: 0 0 0 3px var(--accent), 0 0 48px rgba(124, 140, 255, 0.35);
   margin-bottom: 28px;
   object-fit: cover;          /* for when it becomes an <img> */
