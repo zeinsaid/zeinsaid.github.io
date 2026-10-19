@@ -7,14 +7,11 @@ Thumbs.db
 desktop.ini
 .DS_Store
 
-# Private working notes (stay local)
-portfolio-plan.md
+# Private working notes (stay local). CLAUDE.md and TODO.md stay in the root so sessions find them.
 CLAUDE.md
 TODO.md
-cv-update-brief.md
+notes/
 
-# Source copy of the CV (published as cv.pdf), its Word version and build script
-Zein_Said_CV.pdf
-Zein_Said_CV.docx
-build_cv.js
-cv-history/
+# CV source: the Word file, its build script, the source PDF and past versions.
+# Only cv.pdf in the root is published.
+cv/
