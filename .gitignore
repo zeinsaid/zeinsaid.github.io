@@ -13,5 +13,8 @@ CLAUDE.md
 TODO.md
 cv-update-brief.md
 
-# Source copy of the CV (published as cv.pdf)
+# Source copy of the CV (published as cv.pdf), its Word version and build script
 Zein_Said_CV.pdf
+Zein_Said_CV.docx
+build_cv.js
+cv-history/
