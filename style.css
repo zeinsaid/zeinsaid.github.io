@@ -273,6 +273,9 @@ a:focus-visible {
 }
 
 .card .note { margin-top: 14px; font-size: 0.8rem; }
+.card .h3-ar { margin-left: 6px; font-weight: 600; color: var(--accent); }
+.card .engine { font-size: 0.92rem; }
+.card .engine a { color: var(--text); text-decoration: underline; text-underline-offset: 3px; }
 
 /* ============================================
    Footer
