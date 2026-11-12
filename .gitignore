@@ -15,3 +15,5 @@ notes/
 # CV source: the Word file, its build script, the source PDF and past versions.
 # Only cv.pdf in the root is published.
 cv/
+CLAUDE.local.md
+.claude/
